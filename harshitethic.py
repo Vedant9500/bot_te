@@ -15,7 +15,7 @@ print(aienv)
 #Telegram bot key
 tgenv = os.getenv('TELEGRAM_KEY')
 if tgenv == None:
-    tgkey = "5999085971:AAG09HurKJyoN58ubyB8NlUQzMVcBhGUANo"
+    tgkey = "6156458957:AAFA4lWLtuyL66_TdG3hcyQN6cUYP-CzG9g"
 else:
     tgkey = tgenv
 print(tgenv)
@@ -33,8 +33,8 @@ running = False
 cache = None
 qcache = None
 chat_log = None
-botname = 'chatbot'
-username = 't2trbot'
+botname = 'Chatbot'
+username = 'amauw_bbot'
 # Max chat log length (A token is about 4 letters and max tokens is 2048)
 max = int(3000)
 
